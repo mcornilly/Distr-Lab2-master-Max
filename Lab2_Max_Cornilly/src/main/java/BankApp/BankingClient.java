@@ -52,10 +52,10 @@ public class BankingClient {
         ch.qos.logback.classic.Logger root = (ch.qos.logback.classic.Logger) org.slf4j.LoggerFactory.getLogger("org.apache.http");
         root.setLevel(ch.qos.logback.classic.Level.OFF);
         System.out.println("Starting BankApp.BankingClient...");
-        System.out.println("New Client Bavo: POST /bank/users/bavo with body: " + BankingClient.newUser(name, 100));
-        System.out.println("PUT /bank/users/bavo 100 , balance: " + BankingClient.putBalance(name,100));
-        System.out.println("GET /bank/users/bavo, balance: " + BankingClient.getBalance(name));
-        System.out.println("DELETE /bank/users/bavo");
+        System.out.println("New Client Max: POST /bank/users/Max with body: " + BankingClient.newUser(name, 100));
+        System.out.println("PUT /bank/users/Max 1000 , balance: " + BankingClient.putBalance(name,100));
+        System.out.println("GET /bank/users/Max, balance: " + BankingClient.getBalance(name));
+        System.out.println("DELETE /bank/users/Max");
         BankingClient.deleteUser(name);
 
     }
