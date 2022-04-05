@@ -1,3 +1,5 @@
+package BankApp;
+
 public class BankingAccount {
     String name;
     long balance;

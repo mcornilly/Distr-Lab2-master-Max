@@ -1,3 +1,5 @@
+package BankApp;
+
 import com.mashape.unirest.http.Unirest;
 import com.mashape.unirest.http.exceptions.UnirestException;
 
@@ -49,7 +51,7 @@ public class BankingClient {
         }
         ch.qos.logback.classic.Logger root = (ch.qos.logback.classic.Logger) org.slf4j.LoggerFactory.getLogger("org.apache.http");
         root.setLevel(ch.qos.logback.classic.Level.OFF);
-        System.out.println("Starting BankingClient...");
+        System.out.println("Starting BankApp.BankingClient...");
         System.out.println("New Client Bavo: POST /bank/users/bavo with body: " + BankingClient.newUser(name, 100));
         System.out.println("PUT /bank/users/bavo 100 , balance: " + BankingClient.putBalance(name,100));
         System.out.println("GET /bank/users/bavo, balance: " + BankingClient.getBalance(name));
