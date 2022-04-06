@@ -11,7 +11,7 @@ public class BankingServer {
 
     public BankingServer(){
         this.bankUser = new HashMap<>();
-        this.bankUser.put("Bavo",new BankingAccount("Bavo",1000));
+        this.bankUser.put("Bavo",new BankingAccount("Max",1000));
     }
     @GetMapping("/BankingServer/users/{user}")
     public String getBalance(@PathVariable(value = "user") String user) {
