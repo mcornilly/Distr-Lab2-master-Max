@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Distr-Lab2-master.iml" filepath="$PROJECT_DIR$/.idea/Distr-Lab2-master.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Distr-Lab2-master/Lab2_REST.iml" filepath="$PROJECT_DIR$/Distr-Lab2-master/Lab2_REST.iml" />
-    </modules>
-  </component>
-</project>
